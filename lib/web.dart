@@ -39,6 +39,7 @@ class _WebViewState extends State<WebView> {
         // ),
         url: selectedUrl,
         withZoom: false,
+        withJavascript: true,
         withLocalStorage: true,
         hidden: true,
         initialChild: Container(
